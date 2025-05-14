@@ -1,0 +1,286 @@
+.services-star {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Akkurat Trial TT";
+}
+
+.services-body {
+  width: 100vw;
+  height: 400vh;
+  background-color: #111;
+  color: #10c9c3 ;
+  overflow-x: hidden;
+}
+
+.services-h1 {
+  text-transform: uppercase;
+  font-size: 225px;
+  font-weight: 400;
+  line-height: 0.85;
+}
+
+
+
+
+.model {
+  position: fixed;
+  top: 0;
+  right: 14rem;
+  height: 100vh;
+  width: 50vw; /* or less depending on how much space you want it to take */
+  z-index: 2;
+  pointer-events: none; /* so it doesn't block text interactions */
+}
+
+
+
+
+.hero-caption {
+  position: absolute;
+  bottom: 7rem;
+  right: 2rem;
+  font-size: 3vw;
+  max-width: 400px;
+  color: #888;
+  text-align: right;
+  
+}
+.hero-caption {
+  font-size: 0.9rem !important; /* Try with !important to test override */
+}
+
+
+
+
+section {
+  width: 100vw;
+  height: 100vh;
+}
+
+.intro {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em 4em;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.intro .header-row:last-child p {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 1.1rem;
+  max-width: 300px;
+  color: #888;
+  text-align: right;
+}
+
+.header-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2em;
+  
+  margin-bottom: 1em;
+}
+.intro-header-row {
+  margin-top: 3rem;
+}
+
+.services-h1 {
+  text-transform: uppercase;
+  font-size: clamp(72px, 12vw, 180px); /* Responsive font size */
+  font-weight: 400;
+  line-height: 0.85;
+  margin: 0;
+  flex: 1 1 100%;
+}
+
+.header-row p {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  max-width: 30ch;
+  color: #888;
+  flex: 1 1 50%;
+}
+
+
+.archive {
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.archive-header p {
+  font-family: "Gascogne Serial";
+  font-style: italic;
+}
+
+.archive h2 {
+  font-family: "Gascogne Serial";
+  font-size: 120px;
+  font-weight: 300;
+  color: #4f4f4f;
+}
+
+.archive-info {
+  width: 100%;
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.archive-info p {
+  text-transform: uppercase;
+  color: #4f4f4f;
+}
+
+.outro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4em 2em 2em 2em;
+}
+
+.outro-copy h2 {
+  width: 75%;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 0.5em;
+}
+.outro-copy h2 .line {
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  overflow: hidden;
+  display: block;
+}
+
+.outro-copy h2 .line span {
+  position: relative;
+  will-change: transform;
+  display: flex;
+  transform: translateY(70px);
+}
+
+.outro-copy p {
+  display: flex;
+  margin: 1em 0;
+  gap: 2em;
+  text-transform: uppercase;
+}
+
+.outro-copy p span {
+  font-family: "Akkurat Trial TT";
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent]{
+  scroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: clip;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+@media (max-width: 1024px) {
+  .services-h1 {
+    font-size: clamp(48px, 10vw, 120px);
+  }
+
+  .model {
+    right: 0;
+    width: 100vw;
+    height: 50vh;
+    top: unset;
+    bottom: 0;
+  }
+
+  .hero-caption {
+    font-size: 1rem !important;
+    right: 1rem;
+    bottom: 3rem;
+    max-width: 80%;
+  }
+
+  .intro {
+    padding: 2em;
+  }
+
+  .outro-copy h2 {
+    font-size: 36px;
+    width: 100%;
+  }
+
+  .archive-info {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .services-h1 {
+    font-size: clamp(36px, 14vw, 72px);
+    text-align: center;
+  }
+
+  .header-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-caption {
+    font-size: 0.85rem !important;
+    position: static;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .archive h2 {
+    font-size: 60px;
+  }
+
+  .outro-copy h2 {
+    font-size: 28px;
+  }
+
+  .outro-copy p {
+    flex-direction: column;
+    gap: 0.5em;
+  }
+
+  .footer {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,53 @@
+.hover-image {
+    position: fixed;
+    z-index: 100;
+    width: 200px;
+    height: auto;
+    pointer-events: none;
+    opacity: 0;
+    transform: translate(20px, 20px); /* offset bottom-right from cursor */
+    transition: opacity 0.2s ease;
+  }
+  
+  .hover-image.show {
+    opacity: 1;
+  }
+  
+  .archive-item {
+
+  }
+  .archive-item h2,
+  .archive-item .archive-info p {
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    background-image: linear-gradient(to right, #10c9c3 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    transition: background-position 0.5s ease;
+  }
+  
+  .archive-item:hover h2,
+  .archive-item:hover .archive-info p {
+    background-position: 0%;
+  }
+  .archive-line {
+    width: 460%;
+    height: 4px;
+    margin-top: 0.75rem;
+    background-image: linear-gradient(to right, #10c9c3 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    transition: background-position 0.5s ease;
+    transform: translateX(-50%);
+  }
+  
+  
+  .archive-item:hover .archive-line {
+    background-position: 0%;
+  }
+  

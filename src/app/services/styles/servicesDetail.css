@@ -1,0 +1,30 @@
+.services-detail-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+  }
+  
+  .services-detail-card {
+    background: #10c9c3;
+    color: #000;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .services-detail-image {
+    width: 100%;   /* Adjust the width to 100% of the container */
+    height: 550px; /* Set a fixed height for consistency */
+    object-fit: cover; /* Ensure the image covers the space without distortion */
+    border-radius: 8px;
+  }

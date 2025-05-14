@@ -1,0 +1,11 @@
+Model Information:
+* title:	Rigged teeth with gums
+* source:	https://sketchfab.com/3d-models/rigged-teeth-with-gums-a7d68483b3f947b9a3743018aebd584a
+* author:	dorate (https://sketchfab.com/dorate)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Rigged teeth with gums" (https://sketchfab.com/3d-models/rigged-teeth-with-gums-a7d68483b3f947b9a3743018aebd584a) by dorate (https://sketchfab.com/dorate) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

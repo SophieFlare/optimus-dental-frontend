@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("GroupsCometPendingPostsBulkApproveDialogQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="6606261016127974"}),null);
+__d("NullStateFiles",["cr:2972"],(function(a,b,c,d,e,f,g){"use strict";g["default"]=b("cr:2972")}),98);
