@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <main className="h-full w-full relative z-[2]"> 
-     <Header />
+   <Header /> 
     <div className="flex flex-col relative z-[2]"> 
      <Hero contactRef={contactRef} />
      <div ref={contactRef}> 

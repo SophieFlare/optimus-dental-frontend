@@ -11,7 +11,7 @@ import './journal/journal.css'
 function App() {
   return (
     <>
-    <Header />
+  <Header /> 
     <main className="journal-root journal-body">
       <UI />
       <Loader />

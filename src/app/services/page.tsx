@@ -15,7 +15,7 @@ export default function ServicesPage() {
 
   return (
     <div>
-      <Header />
+  <Header /> 
       <ServicesModel />
       <div className="services-star services-body">
         <ServicesIntro />

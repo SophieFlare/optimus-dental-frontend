@@ -30,12 +30,12 @@ const HeroContent: React.FC<HeroContentProps> = ({ contactRef }) => {
   animate="visible"
   className="flex flex-col md:flex-row items-center justify-center px-6 sm:px-12 md:px-20 mt-[5vh] w-full z-[20] gap-8"
 >
-  <div className="h-full w-full flex flex-col gap-5 justify-center text-center md:text-left">
+  <div className="h-full w-full flex flex-col gap-5 justify-center text-center md:text-center">
     <motion.div
       variants={slideInFromLeft(0.5)}
       className="flex flex-col gap-2 mt-6 font-bold text-white"
     >
-      <span className="text-transparent bg-clip-text bg-white text-3xl sm:text-4xl md:text-5xl">
+      <span className="text-transparent bg-clip-text bg-white text-3xl sm:text-4xl md:text-4xl">
         OPTIMUS DENTAL STUDIO
       </span>
     </motion.div>
@@ -47,11 +47,15 @@ const HeroContent: React.FC<HeroContentProps> = ({ contactRef }) => {
       We offer expert care for all your dental needs, from routine check-ups to advanced treatments. Our team is here to ensure your smile stays bright and healthy.
     </motion.p>
 
-    <motion.div variants={slideInFromLeft(1)} className="w-full flex justify-center md:justify-start">
-      <NeonButton className="mt-4 sm:mt-[10px] w-full sm:w-[250px]">
-        Contact Us!
-      </NeonButton>
-    </motion.div>
+    <motion.div
+  variants={slideInFromLeft(1)}
+  className="w-full flex justify-center md:justify-center"
+>
+  <NeonButton className="mt-4 sm:mt-[10px] w-full sm:w-[250px] flex items-center justify-center">
+    Contact Us!
+  </NeonButton>
+</motion.div>
+
   </div>
 
   <motion.div
@@ -73,18 +77,27 @@ const HeroContent: React.FC<HeroContentProps> = ({ contactRef }) => {
 
       <OptimusLogo />
 
-      <div className="absolute bottom-0 right-0 translate-x-[20%] translate-y-[50%] max-w-[150px] sm:max-w-[200px] md:max-w-[250px]">
+
+    </div>
+  </motion.div>
+
+</motion.div>
+      <div className="absolute bottom-[240px] right-[1120px] translate-x-[20%] translate-y-[50%] max-w-[150px] sm:max-w-[200px] md:max-w-[250px]">
         <Image
           src="/images/monster1.png"
           alt="Optimus Monster"
-          width={250}
-          height={250}
+          width={150}
+          height={150}
         />
       </div>
-    </div>
-  </motion.div>
-</motion.div>
-
+      <div className="absolute bottom-[250px] right-[720px] translate-x-[20%] translate-y-[50%] max-w-[150px] sm:max-w-[200px] md:max-w-[250px]">
+        <Image
+          src="/images/monster.png"
+          alt="Optimus Monster"
+          width={120}
+          height={120}
+        />
+      </div>
     </main>
   );
 };

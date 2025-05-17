@@ -58,7 +58,7 @@ export const UI = () => {
         >
           <img className="w-20" src="/images/optimus-logo01.png" />
         </a>
-        <div className="w-full overflow-auto pointer-events-auto flex justify-center">
+    <div className="w-full overflow-auto pointer-events-auto flex justify-center">
           <div className="overflow-auto flex items-center gap-4 max-w-full p-10">
             {[...pages].map((_, index) => (
               <button
@@ -85,6 +85,7 @@ export const UI = () => {
             </button>
           </div>
         </div>
+      
       </main>
 
       <div className="fixed inset-0 flex items-center -rotate-2 select-none">
@@ -101,7 +102,7 @@ export const UI = () => {
       </h2>
       <h2 className="shrink-0 text-white text-9xl font-medium">Services</h2>
       <h2 className="shrink-0 text-white text-9xl font-extralight italic">
-        Learn More
+        Ideas For Better Health
       </h2>
       <h2 className="shrink-0 text-white text-13xl font-bold">Treatments</h2>
       <h2 className="shrink-0 text-transparent text-13xl font-bold outline-text italic">
@@ -121,7 +122,7 @@ export const UI = () => {
       </h2>
       <h2 className="shrink-0 text-white text-9xl font-medium">Services</h2>
       <h2 className="shrink-0 text-white text-9xl font-extralight italic">
-        Learn More
+        Ideas For Better Health
       </h2>
       <h2 className="shrink-0 text-white text-13xl font-bold">Treatments</h2>
       <h2 className="shrink-0 text-transparent text-13xl font-bold outline-text italic">

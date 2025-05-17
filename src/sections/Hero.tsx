@@ -115,7 +115,7 @@ export const Hero = () => {
       </motion.div>
       {/* End Ring 3 */}
       <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 mb-[90px]">
-          <div className="scale-175 select-none">
+          <div className="scale-75 select-none">
             <NeonButton>DENTAL STUDIO</NeonButton>
           </div>
         </div>
