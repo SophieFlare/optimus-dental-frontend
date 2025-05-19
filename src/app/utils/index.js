@@ -11,7 +11,7 @@ export const highlightThirdmv = "/assets/videos/hightlight-sec.mp4";
 export const highlightFourthmv = "/assets/videos/hightlight-fourth.mp4";
 export const exploremv = "/assets/videos/explore.mp4";
 export const framemv = "/assets/videos/frame.mp4";
-export const exploreOptLogo = "/assets/videos/optimus-video-01.mp4";
+export const exploreOptLogo = "/videos/optimus-video-01.mp4";
 
 
 export const apple = "/assets/images/apple.svg";
@@ -33,5 +33,5 @@ export const chip = "/assets/images/chip.jpeg";
 export const frame = "/assets/images/frame.png";
 
 export const optLogo = "assets/images/opt-logo.png";
-export const implants = "assets/images/implants.jpg"
-export const implants1 = "assets/images/implants-01.jpg"
+export const implants = "/images/implants.jpg"
+export const implants1 = "/images/implants-01.jpg"

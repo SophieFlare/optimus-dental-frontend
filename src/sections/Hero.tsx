@@ -114,14 +114,14 @@ export const Hero = () => {
         <div className="absolute h-2 w-2 left-full bg-white rounded-full top-1/2 -translate-x-1/2 -translate-y-1/2"></div>
       </motion.div>
       {/* End Ring 3 */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 mb-[90px]">
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 mb-[100px]">
           <div className="scale-75 select-none">
             <NeonButton>DENTAL STUDIO</NeonButton>
           </div>
         </div>
       <div className="absolute inset-0 flex justify-center items-center w-full mt-21 px-4 md:px-0">
         <h1
-          className="text-8xl md:text-[168px] md:leading-none font-semibold tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(20,255,169,.5))] text-transparent bg-clip-text text-center mt-[600px] z-[99]"
+          className="text-8xl md:text-[168px] md:leading-none font-semibold tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(20,255,169,.5))] text-transparent bg-clip-text text-center mt-[650px] z-[99]"
           data-content="OPTIMUS"
         >
           OPTIMUS

@@ -44,7 +44,7 @@ const Iphone = () => {
               preload="auto"
               className="absolute top-[9%] left-[10.5%] w-[79%] h-[82%] object-cover rounded-[28px] z-0"
             >
-              <source src="/videos/22.mp4" type="video/mp4" />
+              <source src="/videos/01.mp4" type="video/mp4" />
             </video>
           </div>
         </div>

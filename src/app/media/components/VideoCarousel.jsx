@@ -7,22 +7,23 @@ gsap.registerPlugin(ScrollTrigger);
 
 const highlightSlides = [
   {
-    src: "/assets/videos/highlight-first.mp4",
-    captions: [""],
+    src: "/videos/carousel-01.mp4",
+    captions: ["Your Smile, Reimagined.", "Optimus Dental Studio."],
   },
   {
-    src: "/assets/videos/hightlight-third.mp4",
-    captions: ["Titanium.", "So strong. So light. So Pro."],
+    src: "/videos/carousel-02.mp4",
+    captions: ["Titanium Implants.", "Strong. Durable. Seamless."],
   },
   {
-    src: "/assets/videos/hightlight-third.mp4",
-    captions: ["iPhone 15 Pro Max has the", "longest optical zoom in", "iPhone ever. Far out."],
+    src: "/videos/carousel-03.mp4",
+    captions: ["Advanced Dental Technology.", "Painless. Accurate. Modern."],
   },
   {
-    src: "/assets/videos/hightlight-fourth.mp4",
-    captions: ["All-new Action button.", "What will yours do?"],
+    src: "/videos/carousel-04.mp4",
+    captions: ["Precision. Aesthetic. Confidence."],
   },
 ];
+
 
 const VideoCarousel = () => {
   const videoRef = useRef([]);
@@ -216,10 +217,10 @@ const VideoCarousel = () => {
           <img
             src={
               isLastVideo
-                ? "/assets/images/replay.svg"
+                ? "/images/replay.svg"
                 : !isPlaying
-                ? "/assets/images/play.svg"
-                : "/assets/images/pause.svg"
+                ? "/images/play.svg"
+                : "/images/pause.svg"
             }
             alt={isLastVideo ? "replay" : !isPlaying ? "play" : "pause"}
             onClick={
