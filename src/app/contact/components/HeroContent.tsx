@@ -6,7 +6,7 @@ import {
   slideInFromLeft,
   slideInFromRight,
   slideInFromTop,
-} from "../../utils/motion";
+} from "../../utils/motionSlides";
 
 import Image from "next/image";
 import NeonButton from "../../../components/NeonButton";
