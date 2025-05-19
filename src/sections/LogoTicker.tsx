@@ -41,7 +41,7 @@ export const LogoTicker = () => {
               apexLogo,
               quantumLogo,
             ].map((logo) => (
-              <img src={logo.src} key={logo.src} className="h-6 w-auto" />
+              <img src={logo.src} key={logo.src} className="h-6 w-auto" alt="Company Logo" />
             ))}
           </motion.div>
          </div>

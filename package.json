@@ -12,7 +12,7 @@
     "@dotlottie/react-player": "^1.6.19",
     "@gsap/react": "^2.1.2",
     "@lottiefiles/dotlottie-react": "^0.7.2",
-    "@react-three/drei": "^9.29.0",
+    "@react-three/drei": "^9.56.14",
     "@react-three/fiber": "^8.13.7",
     "framer-motion": "^11.3.2",
     "gsap": "^3.13.0",
@@ -24,7 +24,8 @@
     "react-dom": "^18",
     "sweetalert2": "^11.21.0",
     "tailwind-merge": "^2.4.0",
-    "three": "^0.176.0"
+    "three": "^0.159.0",
+    "three-mesh-bvh": "^0.8.3"
   },
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",

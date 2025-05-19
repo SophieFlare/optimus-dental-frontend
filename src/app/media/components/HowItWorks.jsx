@@ -106,8 +106,8 @@ const HowItWorks = () => {
     <p className="feature-text how_text opacity-0 translate-y-10">
       Our titanium implants are{" "}
       <span className="text-white">crafted with aerospace-grade materials</span>
-      , offering superior strength and integration. It's not just a treatment —
-      it's a transformation you'll feel from day one.
+      , offering superior strength and integration. It&apos;s not just a treatment —{' '}
+      it&apos;s a transformation you&apos;ll feel from day one.
     </p>
   </div>
 </div>
